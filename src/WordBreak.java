@@ -1,3 +1,4 @@
+import java.util.HashSet;
 
 public class WordBreak {
     /*
@@ -11,6 +12,18 @@ public class WordBreak {
      */
 
     public static void main(String[] args){
+        String s = "leetcode";
+        HashSet<String> dict = new HashSet<String>();
+        dict.add("leet");
+        dict.add("code");
+        dict.add("fuck");
+
+
+
+
+
+
+
 
     }
 

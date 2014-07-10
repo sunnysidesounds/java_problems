@@ -5,48 +5,19 @@ public class reverseLinkedList {
 
     public static void main(String[] args) {
 
-        System.out.println("Original LinkedList Order " + linkedListTest());
-       System.out.println("Reversed LinkedList Iterative Order " + reverseIterative(linkedListTest()));
-        System.out.println("Reversed LinkedList Recrusively Order " + reverseRecursively(linkedListTest()));
+        LinkedList<Integer> originalList = new LinkedList<Integer>();
+        originalList.add(1);
+        originalList.add(2);
+        originalList.add(3);
+        originalList.add(4);
 
-    }
-
-    public static LinkedList reverseIterative(LinkedList node){
-        LinkedList reverseList = new LinkedList();
-        for(int i = node.size(); i > 0; i-- ){
-            reverseList.add(node.get(i-1));
+        LinkedList<Integer> reversedList = new LinkedList<Integer>();
+        for(int i = originalList.size()-1; i >= 0; i--){
+            reversedList.add(originalList.get(i));
         }
-        return reverseList;
+
+       System.out.println("Original LinkedList Order " + originalList);
+       System.out.println("Reversed LinkedList Iterative Order " + reversedList);
     }
-
-    public static LinkedList reverseRecursively(LinkedList node){
-
-        node.add(node.getLast());
-     /*
-        LinkedList recusiveList = new LinkedList();
-        recusiveList.add(node.getLast());
-
-        reverseRecursively(recusiveList);
-        return recusiveList;
-        */
-        return node;
-    }
-
-
-
-    public static LinkedList<Integer> linkedListTest(){
-        LinkedList<Integer> head = new LinkedList<Integer>();
-        head.add(1);
-            head.add(3);
-                head.add(5);
-            head.add(7);
-        head.add(9);
-        return head;
-    }
-
-
-
-
-
 
 }
