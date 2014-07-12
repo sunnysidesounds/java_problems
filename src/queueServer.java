@@ -7,7 +7,7 @@ To kiil server : kill $(ps -ef | grep java | awk '{print $2}')
  */
 
 
-public class queueServer {
+public class QueueServer {
 
     public static void main(String[] args){
         int port = 8888;

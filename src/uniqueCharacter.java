@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 // TODO
-public class uniqueCharacter {
+public class UniqueCharacter {
 
     /*
     Implement an algorithm to determine if a string has all unique characters

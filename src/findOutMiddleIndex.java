@@ -1,6 +1,6 @@
 
 // TODO
-public class findOutMiddleIndex {
+public class FindOutMiddleIndex {
 
     /*
     You are given an array of numbers. Find out the array index or position

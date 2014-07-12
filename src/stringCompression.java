@@ -3,7 +3,7 @@ import java.util.Map;
 
 
 // TODO
-public class stringCompression {
+public class StringCompression {
     /*
       Implement a method to preform basic string compression using counts of repeated characters. For example, the string aabcccccaa would become a2b1c5a3.
       If the "compressed" string wpi;d not become smaller than the original string, your method should return the original string.

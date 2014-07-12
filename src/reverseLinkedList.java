@@ -1,7 +1,7 @@
 import java.util.*;
 
 // TODO
-public class reverseLinkedList {
+public class ReverseLinkedList {
 
     public static void main(String[] args) {
 

@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Random;
 
 // COMPLETED
-public class findDuplicateNumber {
+public class FindDuplicateNumber {
 
     /*
     You have got a range of numbers between 1 to N, where one of the number is
@@ -30,7 +30,7 @@ public class findDuplicateNumber {
     }
 
     public static void main(String[] args) {
-        findDuplicateNumber fdn = new findDuplicateNumber();
+        FindDuplicateNumber fdn = new FindDuplicateNumber();
         List<Integer> unquList =new  ArrayList<Integer>();
 
         List<Integer> randomList = fdn.getRandomList();

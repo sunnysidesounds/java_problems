@@ -1,5 +1,5 @@
 
-public class longestPalindromic {
+public class LongestPalindromic {
 
  /*
  Finding the longest palindromic substring is a classic problem of coding interview. In this post, I will summarize 3 different solutions for this problem.

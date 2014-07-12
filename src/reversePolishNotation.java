@@ -1,7 +1,7 @@
 import java.util.*;
 
 // COMPLETED!
-public class reversePolishNotation {
+public class ReversePolishNotation {
 
     /*
     Evaluate the value of an arithmetic expression in Reverse Polish Notation.
@@ -18,7 +18,7 @@ public class reversePolishNotation {
     public static void main (String[] args){
         String[] tokens = new String[] { "18", "10", "+", "3", "/", "4" };
 
-        reversePolishNotation rpn = new reversePolishNotation();
+        ReversePolishNotation rpn = new ReversePolishNotation();
 
         System.out.println(rpn.evalRPN(tokens));
     }
